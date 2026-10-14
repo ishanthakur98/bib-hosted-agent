@@ -1,0 +1,13 @@
+fastapi==0.115.12
+uvicorn==0.34.2
+httpx==0.28.1
+pytest==8.3.5
+flake8==7.2.0
+
+# DEMO-ONLY: intentional finding - CVE-2023-32681 and other advisories.
+requests==2.25.1
+# DEMO-ONLY: intentional finding - CVE-2020-14343.
+PyYAML==5.3.1
+# DEMO-ONLY: intentional finding - CVE-2020-28493 and other advisories.
+Jinja2==2.11.3
+MarkupSafe==2.0.1
